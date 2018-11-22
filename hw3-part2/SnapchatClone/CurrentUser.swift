@@ -16,11 +16,6 @@ class CurrentUser {
     var id: String!
     var readPostIDs: [String]?
     
-    /*TODO:
-     Uncomment the following lines when you reach the appriopriate section in the
-     README. DO NOT UNCOMMENT THE ONES WITHIN THE NEXT TODO:
-     */
-    
     let dbRef = Database.database().reference()
 
     init() {
